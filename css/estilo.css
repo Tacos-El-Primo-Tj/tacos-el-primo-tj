@@ -1,0 +1,175 @@
+body{
+	background-color:#A50818;
+	
+}
+body2{
+	color:#FFFFFF;																		
+	font-family:"Lucida Console","courier new",monospace;
+	font-size:20px;
+}
+p{
+	text-align:justify;
+	font-size:20px;
+}
+hr{
+	border:3px solid #FFFFFF;
+	/*BORDER RADIUS ES PARA EL TERMINADO DE LAS ORILLAS DE LA LINEA ,EL RADIO SE EXPRESA EN PIXELES*/
+	border-radius:5px;
+}
+table,tr,td{
+	
+	border:2px solid #000000;
+	border-spacing:0px;
+	background-color:#AB8F00;
+	text-align:center;
+	font-size:30px
+}
+ul{
+	list-style-type:circle;
+	list-style-position:inside;
+}
+ol{
+	list-style-type:lowe-alpha;
+	list-style-position:inside;
+}
+.pie{
+	text-align:center;
+	font-size:15px;
+	font-weight:bold;
+	color:FFFFFFF;
+}
+.pie2{
+	text-align:center;
+	font-size:40px;
+	font-weight:bold;
+}
+.pie3{
+	text-align:center;
+	font-size:30px;
+	font-weight:bold;
+}
+.pie4{
+	text-align:center;
+	font-size:50px;
+	font-weight:bold;
+	color:#FFFFFF;
+}
+.img-1{
+	height:450px; 
+	width:450px;
+}
+.img-2{
+	height:300px;
+	width:400px;
+	border-radius:10%;
+}
+.img-3{
+	height:150px;
+	width:150px;
+}
+.img-boton{
+	height:50px;
+	width:50px;
+}
+
+div#up{
+	padding:25px;
+	width:100%;
+	height:70px;
+	background-image:linear-gradient(#000000,#FF3535);
+}
+div#top{
+	width:100%;
+	height:100px;
+	background-image:linear-gradient(#FF3535,#000000);
+}
+div#principal{
+	width:100%;
+	font-size:50px;
+}
+*{
+	margin:0px;
+}
+
+.caja{
+	height:250px;
+	width:200px;
+	background:#A50818;
+	border: 1px solid #000000;
+	margin:5px;
+	color:#FFFFFF;
+	text-align:;
+	display:inline-block;
+}
+.caja:hover{
+	box-shadow:15px 15px 15px red;
+	transform:scale(1.3);
+}
+.caja-texto{
+	padding-top:10px;
+	padding-bottom:10px;
+	font-size:25px;
+	color:white;
+	font-weight;bold
+}
+.texto-adicional{
+	padding-top:10px;
+	font-size.30px;
+}
+.carrousel{
+	width:600px;
+	margin:auto;
+	/*hace que el pading y el border´´pasen a 
+	formar parte del calculo de la caj y no de la suma*/
+	box-sizing:border-box;
+}
+.conteCarrousel{
+	width:100%;
+	height:400px;
+/*hace que el navegaro oculte todos los 
+contenidps que salen del div*/
+	overflow:hidden;
+	box-sizing:border-box;
+}
+.itemCarrousel{
+	position:relative;
+	width:100%;
+	height:100%;
+	box-sizing:border-box;
+}
+.itemCarrouselTarjeta{
+	width:100%;
+	height:100%;
+	box-sizing:border-box;
+}
+.itemCarrouselArrows{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	height:100%;
+	width:100%;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	padding:20px;
+	box-sizing:border-box;
+}
+.itemCarrouselArrows>i:hover{
+	cursor:pointer;
+}
+.conteCarrouselController{
+	width:100%;
+	display:flex;
+	justify-content:space-evenly;
+}
+.conteCarrouselController>a{
+	text-decoration:none;
+	font-size:32px;
+	color:grey;
+}
+.itemCarrouselArrows>a> i{
+	color:black;
+	
+}
